@@ -1,0 +1,127 @@
+.header {
+    display: flex;
+    align-items: center;
+    background-color: #6A1F45;
+    padding: 16px 100px;
+}
+.headerBlock-logo {
+}
+.headerBlock-menu {
+    display: grid;
+    margin-left: auto;
+    gap: 11px;
+}
+.blockMenu-numberSocial {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 35px;
+}
+.block-number {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+}
+.block-social {
+    display: block;
+}
+.social-items {
+    display: flex;
+    align-items: end;
+    gap: 23px;
+}
+.social-item {
+}
+.blockMenu-navigation {
+    display: block;
+}
+.navigation-items {
+    display: flex;
+    align-items: center;
+    gap: 54px;
+}
+.navigation-item {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px; 
+}
+
+.header__burger {
+    display: none;
+    position: relative;
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+    transition: all 0.2s ease 0s;
+    margin-left: 24px;
+}
+.burger-line {
+  display: none;
+  background: #fff;
+  height: 3px;
+  width: 100%;
+  border-radius: 2px;
+  position: absolute;
+  transition: transform 0.3s ease;
+}
+.burger-line:nth-child(1) {
+  top: 0;
+}
+.burger-line:nth-child(2) {
+  top: 50%;  
+  transform: translateY(-50%);
+}
+.burger-line:nth-child(3) {
+  bottom: 0;
+}
+.header__burger.cross .burger-line:nth-child(1) {
+  transform: rotate(-45deg) translate(-12px);
+}
+
+.header__burger.cross .burger-line:nth-child(2) {
+  opacity: 0;
+}
+
+.header__burger.cross .burger-line:nth-child(3) {
+  transform: rotate(45deg) translate(-12px);
+}
+
+@media(max-width: 1100px) {
+    .header {
+        padding: 16px;
+    }
+    .navigation-items {
+        gap: 30px;
+    }
+}
+@media(max-width: 769px) {
+    .blockMenu-navigation {
+        display: none;
+    }
+    .block-social {
+        display: none;
+    }
+    .block-number {
+        margin-left: auto;
+    }
+
+    .header__burger,
+    .burger-line {
+        display: block;
+    }
+}
+@media (max-width: 500px) {
+    .headerBlock-logo img {
+        width: 106px; ;
+    }
+    .block-number img {
+        width: 14px;
+    }
+    .block-number {
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 17px;    
+    }
+}
