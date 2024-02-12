@@ -7,6 +7,8 @@
 
 /* import styles start */
 @import url(/styles/header.css);
+
+@import url(/styles/home/section1.css);
 /* import styles end */
 
 /*===================================================*/
@@ -96,7 +98,7 @@ body {
 }
 [class*="__container"] {
     max-width: 1345px;
-    /* padding: 0px 15px 0px 15px; */ /*отступы по крям,позже верну*/
+    padding: 0px 15px 0px 15px;
     margin: 0 auto;
 }
 /*default end*/

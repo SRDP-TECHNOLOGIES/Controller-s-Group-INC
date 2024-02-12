@@ -1,10 +1,15 @@
 .header {
+    background-color: #6A1F45;
+}
+.header__cont {
     display: flex;
     align-items: center;
-    background-color: #6A1F45;
-    padding: 16px 100px;
+    padding: 16px;
+    max-width: 1720px;
+    margin: 0 auto;
 }
 .headerBlock-logo {
+    cursor: pointer;
 }
 .headerBlock-menu {
     display: grid;
@@ -18,10 +23,18 @@
     gap: 35px;
 }
 .block-number {
+    display: flex;
+    align-items: center;
     color: #fff;
     font-size: 18px;
     font-weight: 700;
     line-height: 22px;
+    gap: 6px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.block-number:hover {
+    text-decoration: none;
 }
 .block-social {
     display: block;
@@ -32,6 +45,7 @@
     gap: 23px;
 }
 .social-item {
+    cursor: pointer;
 }
 .blockMenu-navigation {
     display: block;
@@ -46,6 +60,15 @@
     font-size: 18px;
     font-weight: 400;
     line-height: 22px; 
+    cursor: pointer;
+}
+.navigation-item:hover {
+    text-decoration: underline;
+}
+.header-bottom {
+    height: 10px;
+    width: 100%;
+    background-color: rgba(106, 31, 69, 0.3);
 }
 
 .header__burger {
@@ -89,9 +112,6 @@
 }
 
 @media(max-width: 1100px) {
-    .header {
-        padding: 16px;
-    }
     .navigation-items {
         gap: 30px;
     }
