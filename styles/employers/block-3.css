@@ -1,0 +1,46 @@
+.block-3-employers {
+  padding: 50px 0 0 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.block-3-employers-box {
+  width: 1300px;
+  height: 421px;
+  border-radius: 16px;
+  background: #465B71;
+  display: flex;
+  justify-content: space-between;
+}
+
+.block-3-employers-box-left {
+  margin-left: 90px;
+  margin-top: 130px;
+}
+
+
+.block-3-employers-box-left h2{
+  Width: 316px;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: white;
+}
+
+.block-3-employers-box-left p{
+  width: 457px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: white;
+}
+
+.block-3-employers-box-right img{
+  width: 633px;
+  height: 421px;
+  border-radius: 0px 16px 16px 0px;
+}
