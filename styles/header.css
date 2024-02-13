@@ -4,25 +4,32 @@
 .header__cont {
     display: flex;
     align-items: center;
-    padding: 16px;
+    padding: 8px 16px;
     max-width: 1720px;
     margin: 0 auto;
 }
 .headerBlock-logo {
     cursor: pointer;
+    margin-right: 30px;
+}
+.headerBlock-logo img {
+    width: 130px;
 }
 .headerBlock-menu {
-    display: grid;
-    margin-left: auto;
-    gap: 11px;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 30px;
 }
 .blockMenu-numberSocial {
     display: flex;
     align-items: center;
     justify-content: end;
     gap: 35px;
+    margin-left: auto;
 }
 .block-number {
+    width: 160px;
     display: flex;
     align-items: center;
     color: #fff;
@@ -49,20 +56,24 @@
 }
 .blockMenu-navigation {
     display: block;
+    margin-left: auto;
 }
 .navigation-items {
     display: flex;
-    align-items: center;
+    align-items: start;
     gap: 54px;
 }
 .navigation-item {
+    align-self: end;
+    cursor: pointer;
+}
+.navigation-item-link {
     color: #fff;
     font-size: 18px;
     font-weight: 400;
     line-height: 22px; 
-    cursor: pointer;
 }
-.navigation-item:hover {
+.navigation-item-link:hover {
     text-decoration: underline;
 }
 .header-bottom {
@@ -78,13 +89,13 @@
     height: 20px;
     cursor: pointer;
     transition: all 0.2s ease 0s;
-    margin-left: 24px;
+    margin: 0px 15px;
 }
 .burger-line {
   display: none;
   background: #fff;
   height: 3px;
-  width: 100%;
+  width: 30px;
   border-radius: 2px;
   position: absolute;
   transition: transform 0.3s ease;
@@ -116,6 +127,19 @@
         gap: 30px;
     }
 }
+@media (max-width: 991px) {
+    .block-number,
+    .navigation-item-link {
+        font-size: 16px;
+    }
+    .navigation-items {
+        flex-wrap: wrap;
+        row-gap: 0px;
+        justify-content: space-around;
+    }
+    .block-number {
+    }
+}
 @media(max-width: 769px) {
     .blockMenu-navigation {
         display: none;
@@ -133,6 +157,9 @@
     }
 }
 @media (max-width: 500px) {
+    .headerBlock-logo {
+        margin-right: 10px;
+    }
     .headerBlock-logo img {
         width: 106px; ;
     }
@@ -140,8 +167,10 @@
         width: 14px;
     }
     .block-number {
+        width: 130px;
         font-size: 14px;
         font-weight: 700;
-        line-height: 17px;    
+        line-height: 17px;
+        justify-content: space-between;
     }
 }
