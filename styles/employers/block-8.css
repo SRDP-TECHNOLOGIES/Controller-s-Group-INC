@@ -1,0 +1,96 @@
+.block-8-employers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #F4F4F4;
+  padding: 180px 0 50px 0;
+}
+
+.block-8-employers-h1 {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: center;  
+  margin-bottom: 40px;
+}
+
+.block-8-employers-card {
+  width: 1053px;
+  height: 291px;
+  border-radius: 16px;
+  display: flex;
+  margin-bottom: 40px;
+  background: white;
+}
+
+.block-8-employers-card-right h3 {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #6A1F45;
+  margin-bottom: 10px;
+  margin-top: 50px;
+}
+
+.block-8-employers-card-right p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+.block-8-employers-card-right {
+  margin-left: 40px;
+}
+
+.block-8-employers-card-right a{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+  height: 50px;
+  border-radius: 8px;
+  border: 2px;
+  position: relative;
+  top: 50px;
+  border: 2px solid #465B71;
+}
+
+.block-8-btn1 {
+  max-width: 320px;
+}
+
+.block-8-btn2 {
+  max-width: 258px;
+}
+
+.block-8-btn3 {
+  max-width: 320px;
+}
+
+.block-8-btn4 {
+  max-width: 320px;
+}
+
+.block-8-employers-card-btn {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #465B71;
+}
+
+.block-8-employers-card-right a {
+  background: #F2F8FF;
+  transition: 0.2s;
+}
+
+.block-8-employers-card-right a:hover {
+  background: #263749;
+}

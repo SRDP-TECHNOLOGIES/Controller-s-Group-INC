@@ -1,0 +1,67 @@
+.block-5-employers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 0;
+}
+
+.block-5-employers-table {
+  width: 930px;
+  height: 1121px;
+  border-radius: 16px;
+  background: #31465B;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.block-5-employers-table-h1 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 39px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: white;
+}
+
+.block-5-employers-card {
+  width: 1061px;
+  height: 290px;
+  border-radius: 16px;
+  background: #465B71;
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 65px 10px 80px;
+}
+
+
+
+.block-5-employers-card-midle h3{
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+.block-5-employers-card-midle p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: rgb(228, 228, 228);
+  width: 356px;
+}
+
+.block-5-employers-card-right {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: rgb(228, 228, 228);
+  width: 356px;
+}

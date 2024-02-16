@@ -1,0 +1,26 @@
+.block-6-employers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.block-6-employers-bg {
+  background-image: url(/img/employers/png/block-6.png);
+  background-repeat: no-repeat;
+  width: 1300px;
+  height: 632px;
+  border-radius: 16px;
+}
+
+.block-6-employers-h1 {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 51px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  width: 752px;
+  height: 93px;
+  margin: auto;
+  margin-top: 256px;
+  color: white;
+}
