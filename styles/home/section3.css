@@ -1,0 +1,60 @@
+.section3-why {
+    padding-top: 305px;
+}
+.section3Why__container {
+    text-align: center;
+}
+.section3Why-title {
+    color: rgba(106, 31, 69, 1);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;  
+}
+.section3Why-text {
+    padding-top: 21px;
+    color: #000;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;  
+}
+.section3Why-block {
+    padding-top: 90px;
+}
+.section3WhyBlock-title {
+    color: #000;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+    text-transform: uppercase;
+}
+.section3Why-flex {
+    padding-top: 74px;
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+}
+.section3WhyBlock-article {
+    max-width: 620px;
+    height: 503px;
+}
+.section3WhyBlock-menu {
+}
+.section3WhyBlock-items {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    border: 1px solid #000;
+    border-radius: 10px;
+    height: 503px;
+    padding: 96px 64px 53px 64px;
+    gap: 38px;
+}
+.section3WhyBlock-item {
+    display: grid;
+    column-gap: 150px;
+    row-gap: 21px;
+}
+.section3WhyBlock-item img {
+    margin: 0 auto;
+}
+.section3WhyBlock-subtitle {
+}

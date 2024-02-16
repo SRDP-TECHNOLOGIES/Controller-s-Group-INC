@@ -35,7 +35,8 @@
 .section2Stats-absolute {
     position: absolute;
     display: flex;
-    width: initial;
+    width: 100%;
+    max-width: 1345px;
     height: 433px;
     outline: 24px solid #fff;
     border-radius: 28px;
@@ -44,19 +45,23 @@
     transform: translateX(-50%);
 }
 .section2Stats-imgBlock {
-    max-width: 523px;
+    position: relative;
 }
 .section2Stats-img {
     border-radius: 20px 0px 0px 20px;
 }
 .section2ImgBlock-title {
+    position: absolute;
+    width: 100%;
+    left: 67px;
+    bottom: 57px;
     font-size: 44px;
     font-weight: 700;
     line-height: 54px;
     color: #fff;
 }
 .section2Stats-directContact {
-    display: flex;
+    width: 100%;
     background: rgba(70, 91, 113, 1);
     padding: 49px 51px;
     border-radius: 0px 20px 20px 0px;
@@ -69,10 +74,10 @@
 }
 .section2DirectContact-item {
     display: grid;
-    max-width: 319px;
     text-align: center;
     color: #fff;
     border: 1px solid #fff;
+    background: rgb(81, 99, 119);
     border-radius: 8px;
     padding: 25px 23px 33px 23px;
 }
@@ -97,11 +102,16 @@
     margin-bottom: 35px;
 }
 .section2DirectContact-button {
+    width: 100%;
+    max-width: 193px;
     font-size: 18px;
     font-weight: 700;
     line-height: 22px;
     color: rgba(106, 31, 69, 1);
-    padding: 20px 23px;
+    padding: 20px 5px;
     border-radius: 8px;
     margin: 0 auto;
+}
+
+@media (max-width: 1160px) {
 }
