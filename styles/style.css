@@ -5,11 +5,18 @@
 
 /*===================================================*/
 
-/* import styles start */
+/* import our start */
 @import url(/styles/header.css);
+/* import our end */
+
+/* import Karpenko */
+/* home */
 
 @import url(/styles/home/section1.css);
-/* import styles end */
+@import url(/styles/home/section2.css);
+
+/* home */
+/* import Karpenko */
 
 /* import Prokopenko */
 /* employers */
