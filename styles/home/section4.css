@@ -1,0 +1,83 @@
+.section4-note {
+    margin-top: 81px;
+    background-color: rgba(70, 91, 113, 1);
+}
+.section4Note__container {
+    text-align: center;
+}
+.section4Note-title {
+    padding-top: 81px;
+    color: #fff;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+    padding-bottom: 57px;  
+}
+.section4Note-block {
+    max-width: 1019px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 25px 58px 44px 58px;
+}
+.section4Note-text {
+    padding-top: 16px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;  
+}
+.section4Note-person {
+}
+.section4Note-FIO {
+    padding-top: 40px;
+    color: rgba(70, 91, 113, 1);
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 29px;
+}
+.section4Note-workPosition {
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 29px;
+}
+.section4Note-button {
+    margin-top: 37px;
+    color: #fff;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 26px;
+    padding: 18px 40px;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    background-color: rgba(70, 91, 113, 1);
+    transition: all 0.3s ease 0s;
+    margin-bottom: 90px;
+}
+.section4Note-button:hover {
+    background-color: #fff;
+    color: rgba(70, 91, 113, 1);
+}
+@media (max-width: 769px) {
+    .section4Note-block {
+        padding: 24px 16px 33px 16px;
+    }
+    .section4Note-button {
+        margin-bottom: 21px;
+    }
+}
+@media (max-width: 600px) {
+    .section4Note-title {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 29px;     
+        padding-bottom: 41px;
+    }
+    .section4Note-button {
+        margin-top: 30px;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 20px;  
+    }
+}

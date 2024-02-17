@@ -35,7 +35,7 @@
 }
 .section3WhyBlock-article {
     width: 100%;
-    height: 503px;
+
 }
 .section3WhyBlock-titleBlock {
     position: relative;
@@ -51,6 +51,7 @@
     margin: 0 auto;
 }
 .section3WhyBlock-menu {
+    max-height: 503px;
 }
 .section3WhyBlock-items {
     display: grid;
@@ -74,11 +75,11 @@
         gap: 100px;
     }
 }
-@media (max-width: 460px) {
+/* @media (max-width: 460px) {
     .section3WhyBlock-items {
         grid-template-columns: repeat(1,1fr);
     }
     .section3WhyBlock-titleBlock {
         margin: 0 15px;
     }
-}
+} */
