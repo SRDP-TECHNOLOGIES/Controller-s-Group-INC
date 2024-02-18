@@ -9,6 +9,9 @@
 </head>
 <body>
   <div class="wrapper">
+
+    <div class="overlay"></div> <!-- сірий фон при активному бургері -->
+
     <!--header start-->
     <header class="header">
       <div class="header__cont">
@@ -52,7 +55,7 @@
             </ul>
           </nav>
         </div>
-        <div onclick="headerBurger()" class="header__burger" id="burger">
+        <div class="header__burger" id="burger">
           <span class="burger-line"></span>
           <span class="burger-line"></span>
           <span class="burger-line"></span>
@@ -307,5 +310,7 @@
     </footer>
     <!--footer end-->
   </div>
+
+  <script src="/js/burger.js"></script>
 </body>
 </html>
