@@ -7,6 +7,7 @@
 
 /* import our start */
 @import url(/styles/header.css);
+@import url(/styles/our-styles/staticSwiperBlock/staticSwiperBlock.css);
 /* import our end */
 
 /* import Karpenko */
@@ -16,6 +17,7 @@
 @import url(/styles/home/section2.css);
 @import url(/styles/home/section3.css);
 @import url(/styles/home/section4.css);
+@import url(/styles/home/section5.css);
 
 /* home */
 /* import Karpenko */
