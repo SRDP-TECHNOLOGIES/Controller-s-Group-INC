@@ -1,0 +1,76 @@
+.section6-case {
+    background-color: rgba(238, 238, 238, 1);
+    padding: 37px 0px 88px 0px;
+}
+.section6Case__container {
+}
+.section6Case-block {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 44px 86px 60px 86px;
+}
+.section6Case-title {
+    color: rgba(106, 31, 69, 1);
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 34px; 
+}
+.section6Case-menu {
+    padding-top: 50px;
+}
+.section6Case-items {
+    display: flex;
+    justify-content: space-between;
+    gap: 43px;
+}
+.section6Case-item {
+    max-width: 505px;
+    border: 1px solid rgba(217, 217, 217, 1);
+    padding: 40px 48px 50px 48px;
+    text-align: center;
+}
+.section6Case-itemTitle {
+    padding-top: 38px;
+    color: rgba(106, 31, 69, 1);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+}
+.section6Case-itemText {
+    padding-top: 29px;
+    color: rgba(0, 0, 0, 1);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;  
+}
+.section6Case-itemButton {
+    margin-top: 10px;
+    color: rgba(70, 91, 113, 1);
+    background-color: #fff;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 26px;   
+    padding: 18px 40px;
+    border: 1px solid rgba(70, 91, 113, 1);
+    border-radius: 8px;
+    transition: all 0.3s ease 0s;
+}
+.section6Case-itemButton:hover {
+    color: #fff;
+    background-color: rgba(70, 91, 113, 1);
+}
+@media (max-width: 991px) {
+    .section6Case-block {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+@media (max-width: 810px) {
+    .section6Case-itemTitle {
+        color: rgba(106, 31, 69, 1);
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24px;
+        
+    }
+}
