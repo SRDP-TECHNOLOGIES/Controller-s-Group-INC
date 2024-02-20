@@ -1,0 +1,31 @@
+.section7-our {
+}
+.section7Our__container {
+}
+.section7Our-block {
+    text-align: center;
+    padding: 72px 30px 55px 30px;
+}
+.section7Our-title {
+    color: rgba(106, 31, 69, 1);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;  
+}
+.section7Our-subtitle {
+    padding-top: 10px;
+    color: rgba(38, 96, 105, 1);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+}
+.section7Our-menu {
+    padding-top: 50px;
+}
+.section7Our-items {
+    display: flex;
+    justify-content: center;
+    gap: 77px;
+}
+.section7Our-item {
+}

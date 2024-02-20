@@ -1,0 +1,57 @@
+.section8-form {
+    background-color: #eccfdf;
+}
+.section8Form__container {
+    text-align: center;
+}
+.section8Form-title {
+    padding-top: 60px;
+    color: rgba(106, 31, 69, 1);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+}
+.section8Form-block {
+    display: flex;
+    padding-top: 30px;
+    max-height: 368px;
+    gap: 42px;
+}
+.section8Form-block img {
+    border-radius: 15px;
+}
+.section8Form-formBlock {
+    width: 100%;
+}
+.section8Form-forms {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 22px;
+}
+.section8Form-form {
+    width: 100%;
+}
+.section8Form-input {
+    width: 100%;
+    padding: 15px 18px;
+}
+.section8Form-input::placeholder {
+    color: #000;
+}
+.section8Form-input {
+    border: 1px solid rgba(175, 138, 157, 1);
+}
+.section8Form-comment {
+    height: 96px;
+}
+.section8Form-button {
+    display: flex;
+    color: #fff;
+    background: rgba(106, 31, 69, 1);
+    padding: 18px 56px;
+    margin-top: 21px;
+    border-radius: 8px;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 26px;
+}
