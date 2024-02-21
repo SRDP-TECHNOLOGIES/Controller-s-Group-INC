@@ -17,6 +17,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 0px 76px;
+    gap: 15px;
 }
 .section2Stats-item {
     text-align: center;
@@ -29,6 +30,27 @@
     line-height: 29px;
     color: #fff;
 }
+@media (max-width: 1100px) {
+    .section2Stats-itemSubTitle {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0.02em;
+    }
+    .section2Stats-items {
+        padding: 0px 40px;
+    }
+}
+@media (Max-width: 779px) {
+    .section2-stats {
+        height: auto;
+        padding-bottom: 60px;
+    }
+    .section2Stats-items {
+        flex-direction: column;
+        gap: 60px;
+    }
+}
 
 /* ==================== */
 
@@ -37,12 +59,12 @@
     display: flex;
     width: 100%;
     max-width: 1345px;
-    height: 433px;
-    outline: 24px solid #fff;
-    border-radius: 28px;
+    padding: 24px 23px 26px 23px;
     top: 263px;
     left: 50%;
     transform: translateX(-50%);
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 28px;
 }
 .section2Stats-imgBlock {
     position: relative;
@@ -61,9 +83,12 @@
     color: #fff;
 }
 .section2Stats-directContact {
+    max-height: 433px;
+    display: grid;
+    place-content: center;
     width: 100%;
     background: rgba(70, 91, 113, 1);
-    padding: 49px 51px;
+    padding: 15px 50px;
     border-radius: 0px 20px 20px 0px;
 }
 .section2DirectContact-menu {

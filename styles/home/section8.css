@@ -1,0 +1,128 @@
+.section8-form {
+    background-color: rgba(106, 31, 69, 0.12);
+}
+.section8Form__container {
+    text-align: center;
+}
+.section8Form-title {
+    padding-top: 60px;
+    color: rgba(106, 31, 69, 1);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+}
+.section8Form-block {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.section8Form-block img {
+    border-radius: 15px;
+    margin-bottom: 73px;
+}
+.section8Form-formBlock {
+    max-width: 650px;
+    padding: 21px 0px 0px 0px;
+    margin-bottom: 18px;
+}
+.section8Form-forms {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 22px;
+}
+.section8Form-form {
+    width: 100%;
+}
+.section8Form-formTextarea {
+    text-align: left;
+    padding-top: 22px;
+}
+.section8Form-comment {
+    max-width: 650px;
+    max-height: 96px;
+}
+.section8Form-input {
+    width: 100%;
+    padding: 15px 18px;
+}
+.section8Form-input::placeholder {
+    color: #000;
+}
+.section8Form-input {
+    border: 1px solid rgba(175, 138, 157, 1);
+}
+.section8Form-button {
+    display: flex;
+    color: #fff;
+    background: rgba(106, 31, 69, 1);
+    padding: 18px 56px;
+    margin-top: 21px;
+    border-radius: 8px;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 26px;
+    transition: all 0.2s ease 0s;
+}
+.section8Form-button:hover {
+    background-color: rgb(175, 94, 135);
+}
+
+/* join block */
+.section8Form-join {
+    padding-top: 59px;
+    background-color: rgba(238, 238, 238, 1);
+}
+.section8FormJoin__container {
+    display: flex;
+    justify-content: space-between;
+    gap: 73px;
+}
+.section8FormJoin-titleBlock {
+}
+.section8FormJoin-title {
+    color: rgba(70, 91, 113, 1);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+}
+.section8FormJoin-joinBlock {
+    display: flex;
+    align-items: center;
+}
+.section8FormJoin-form {
+    height: 66px;
+}
+.section8FormJoin-input {
+    padding: 21px 25px 22px 25px;
+    height: 100%;
+    border: 1px solid rgba(170, 170, 170, 0.5);
+}
+.section8FormJoin-input::placeholder {
+    color: rgba(0, 0, 0, 1);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+}
+.section8FormJoin-inputFirstName {
+    width: 290px;
+    border-radius: 15px 0px 0px 15px;
+}
+.section8FormJoin-inputEmail {
+    width: 310px;
+    border-left: none;
+}
+.section8FormJoin-button {
+    width: 111px;
+    height: 66px;
+    color: #fff;
+    background-color: rgba(106, 31, 69, 1);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    padding: 20px 27px 25px 27px;
+    border-radius: 0px 15px 15px 0px;
+    transition: all 0.2s ease 0s;
+}
+.section8FormJoin-button:hover {
+    background-color: rgb(175, 94, 135);
+}

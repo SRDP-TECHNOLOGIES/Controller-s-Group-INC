@@ -18,6 +18,9 @@
 @import url(/styles/home/section3.css);
 @import url(/styles/home/section4.css);
 @import url(/styles/home/section5.css);
+@import url(/styles/home/section6.css);
+@import url(/styles/home/section7.css);
+@import url(/styles/home/section8.css);
 
 /* home */
 /* import Karpenko */
@@ -122,7 +125,7 @@ body {
     overflow: clip;
 }
 [class*="__container"] {
-    max-width: 1345px;
+    max-width: 1330px;
     padding: 0px 15px 0px 15px;
     margin: 0 auto;
 }
