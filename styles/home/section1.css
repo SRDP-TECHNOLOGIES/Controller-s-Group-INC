@@ -28,6 +28,7 @@
     max-width: 450px;
 }
 .homeContract-imgBlock {
+    display: flex;
     position: relative;
     margin-bottom: 23px;
 }
@@ -100,7 +101,7 @@
 @media (max-width: 779px) {
     .homeContract-items {
         display: grid;
-        gap: 100px;
+        gap: 30px;
     }
     .homeContract-title br {
         display: none;
@@ -121,8 +122,47 @@
         padding-top: 40px;
     }
     .homeContract-title {
-        font-size: 25px;
-        line-height: 25px;
-        letter-spacing: 0em;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 27px;
+        letter-spacing: 0.02em;
+    }
+}
+
+@media (width < 450px) {
+    .homeContract-background {
+        height: 60px;
+    }
+    .homeContract-imgBlock-subtitle {
+        bottom: 15px;
+    }
+}
+
+@media (width < 380px) {
+    .homeContract-background {
+        height: 47px;
+    }
+    .homeContract-imgBlock-subtitle {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;     
+    }
+    .homeContract-button {
+        padding: 16px 25px;
+        font-size: 21px;
+        font-weight: 400;
+        line-height: 26px;    
+    }
+    .homeContract-background,
+    .homeContract-imgBlock img {
+        max-width: 250px;
+    }
+    .homeContract-imgBlock {
+        justify-content: center;
+    }
+    .homeContract-bottomText {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 22px;     
     }
 }
