@@ -3,6 +3,7 @@
   flex-direction: column;
   align-items: center;
   padding: 100px 0;
+  background: #E2EAF2;
 }
 
 .block-10-employers-cards {
@@ -24,4 +25,11 @@
   line-height: 34px;
   letter-spacing: 0.02em;
   text-align: center;
+}
+
+.block-10-employers-card-bottom {
+  width: 349px;
+  height: 160px;
+  border-radius: 0px 0px 10px 10px;
+  background: #ffffff;
 }
