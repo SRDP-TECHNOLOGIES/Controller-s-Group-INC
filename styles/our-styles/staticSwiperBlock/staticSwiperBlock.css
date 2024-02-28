@@ -3,25 +3,25 @@
 }
 .staticSwiperBlock-items {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 15px;
+    align-items: start;
+    justify-content: center;
+    gap: 40px;
 }
 .staticSwiperBlock-item {
-    max-width: 349px;
 }
 .staticSwiperBlock-item img {
     max-width: 100%;
     border-radius: 10px 10px 0px 0px;
 }
 .staticSwiperBlock-downBlock {
+    max-width: 349px;
+    min-height: 160px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     text-align: start;
     background-color: rgba(255, 255, 255, 1);
     padding: 19px 20px;
-    height: 160px;
     border-radius: 0px 0px 10px 10px;
 }
 .staticSwiperBlock-textBlock {
@@ -40,6 +40,10 @@
     line-height: 24px; 
 }
 .staticSwiperBlock-flex-a {
+    padding-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
 }
 .staticSwiperBlock-a {
     color: #fff;
@@ -55,4 +59,35 @@
     color: rgba(70, 91, 113, 1);
     background-color: #fff;
     outline: 2px solid rgba(70, 91, 113, 1);
+}
+
+@media (width < 991px) {
+    .staticSwiperBlock-items {
+        flex-wrap: wrap;
+    }
+}
+
+@media (width < 600px) {
+    .staticSwiperBlock-items {
+        gap: 17px;
+    }
+    .staticSwiperBlock-menu {
+        padding-top: 17px;
+    }
+    .staticSwiperBlock-downBlock {
+        min-height: auto;
+    }
+}
+
+@media (width < 430px) {
+    .staticSwiperBlock-date {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 15px;    
+    }
+    .staticSwiperBlock-subtitle {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px; 
+    }
 }

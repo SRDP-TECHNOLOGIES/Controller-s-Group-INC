@@ -71,7 +71,8 @@
     .section4Note-title {
         font-size: 24px;
         font-weight: 700;
-        line-height: 29px;     
+        line-height: 29px;
+        padding-top: 40px;
         padding-bottom: 41px;
     }
     .section4Note-button {

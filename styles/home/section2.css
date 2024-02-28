@@ -57,6 +57,7 @@
 .section2Stats-absolute {
     position: absolute;
     display: flex;
+    display: none; /*delete*/
     width: 100%;
     max-width: 1345px;
     padding: 24px 23px 26px 23px;
@@ -148,18 +149,26 @@
 }
 
 @media (width < 1110px) {
+    .section2-stats {
+        height: 280px;
+    }
     .section2Stats-absolute {
+        position: relative;
         display: grid;
+        display: none; /*delete*/
         border-radius: 0px;
         background: none;
         padding: 0px;
         z-index: 5;
+        top: 50px;
+        left: 50%;
     }
     .section2Stats-img {
         width: 100%;
         border-radius: 0px;
     }
     .section2Stats-directContact {
+        max-height: 100%;
         border-radius: 0px;
     }
     .section2DirectContact-items {

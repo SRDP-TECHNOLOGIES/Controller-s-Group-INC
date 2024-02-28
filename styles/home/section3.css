@@ -35,7 +35,6 @@
 }
 .section3WhyBlock-article {
     width: 100%;
-
 }
 .section3WhyBlock-titleBlock {
     position: relative;
@@ -55,6 +54,7 @@
 }
 .section3WhyBlock-items {
     display: grid;
+    height: 503px;
     grid-template-columns: repeat(2,2fr);
     border: 1px solid #000;
     border-radius: 10px;
@@ -75,11 +75,58 @@
         gap: 100px;
     }
 }
-/* @media (max-width: 460px) {
+@media (max-width: 460px) {
+    .section3Why-flex {
+        gap: 22px;
+    }
+    .section3Why-title {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 29px;  
+    }
+    .section3Why-text {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;  
+    }
+    .section3WhyBlock-title {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 29px;
+    }
+    .section3Why-block {
+        padding-top: 48px;
+    }
+    .section3WhyBlock-titleBlock {
+        max-width: 220px;
+        padding: 7px 15px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;  
+        bottom: -16px;
+    }
+    .section3WhyBlock-item img {
+        max-width: 50px;
+    }
     .section3WhyBlock-items {
+        height: 100%;
+        row-gap: 20px;
+        column-gap: 20px;
+        padding: 38px 10px 20px 10px;
+    }
+    .section3WhyBlock-subtitle {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px; 
+    }
+    .section3WhyBlock-subtitle br {
+        display: none;
+    }
+
+    /* .section3WhyBlock-items {
         grid-template-columns: repeat(1,1fr);
     }
     .section3WhyBlock-titleBlock {
         margin: 0 15px;
-    }
-} */
+    } */
+}
