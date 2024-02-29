@@ -24,8 +24,46 @@
 }
 .section7Our-items {
     display: flex;
-    justify-content: center;
-    gap: 77px;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
 }
 .section7Our-item {
+}
+.section7Our-item img {
+    max-width: 100%;
+}
+
+@media (width < 779px) {
+    .section7Our-items {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media (width < 500px) {
+    .section7Our-block {
+        padding: 38px 39px;
+    }
+    .section7Our-title {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 29px;
+    }
+    .section7Our-subtitle {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 22px;
+    }
+    .section7Our-menu {
+        padding-top: 23px;
+    }
+    .section7Our-items {
+        column-gap: 30px;
+        row-gap: 15px;
+    }
+}
+@media (width < 374px) {
+    .section7Our-block {
+        padding: 20px 25px;
+    }
 }

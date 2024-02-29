@@ -79,7 +79,7 @@
 .section8FormJoin__container {
     display: flex;
     justify-content: space-between;
-    gap: 73px;
+    gap: 15px;
 }
 .section8FormJoin-titleBlock {
 }
@@ -133,4 +133,101 @@
 }
 .section8FormJoin-button:hover {
     background-color: rgb(175, 94, 135);
+}
+
+@media (width < 1100px) {
+    .section8Form-block {
+        align-items: center;
+    }
+    .section8Form-block img {
+        max-width: 408px;
+        max-height: 238px;
+    }
+    .section8Form-formBlock {
+        margin: 0px 0px 18px 22px;
+    }
+
+    .section8FormJoin__container {
+        display: grid;
+        justify-content: center;
+        gap: 25px;
+    }
+}
+@media (width < 991px) {
+    .section8Form-block {
+        display: grid;
+        justify-content: center;
+    }
+    .section8Form-block img {
+        max-width: 100%;
+        max-height: 100%;
+        margin: 0px auto 33px auto;
+    }
+    .section8Form-formBlock {
+        margin: 0px 0px 36px 0px;
+    }
+}
+@media (width < 779px) {
+    .section8Form-forms {
+        grid-template-columns: repeat(1,1fr);
+        gap: 16px;
+    }
+
+    .section8FormJoin-joinBlock {
+        display: grid;
+    }
+    .section8FormJoin-inputFirstName {
+        width: 100%;
+        border-radius: 8px 8px 0px 0px;
+    }
+    .section8FormJoin-inputEmail {
+        width: 100%;
+        border-left: 1px solid rgba(170, 170, 170, 0.5);
+        border-top: none;
+        border-radius: 0px 0px 8px 8px;
+    }
+    .section8FormJoin-button {
+        display: flex;
+        margin: 0 auto;
+        margin-top: 15px;
+        width: auto;
+        height: auto;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 20px;
+        padding: 13px 52px;
+        border-radius: 6px;
+    }
+}
+@media (width < 500px) {
+    .section8Form-title {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 29px;
+        padding-top: 35px;
+    }
+    .section8Form-block {
+        padding-top: 15px;
+    }
+    .section8Form-input::placeholder {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0.02em;
+    }
+    .section8Form-button {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 20px;
+        padding: 11px 39px 13px 39px;
+    }
+
+    .section8Form-join {
+        padding-top: 28px;
+    }
+    .section8FormJoin-title {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+    }
 }
