@@ -1,0 +1,127 @@
+.footer {
+    padding: 62px 0px 123px 0px;
+    background-color: rgba(48, 67, 86, 1);
+    color: #fff;
+}
+.footer__container {
+}
+.footer-blocks {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.footer-block1 {
+}
+.footerBlock1-img {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 15px;
+}
+.footerBlock1-menu {
+}
+.footerBlock1-items {
+    display: grid;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    gap: 35px;
+}
+.footerBlock1-item {
+}
+.footer-block2 {
+    margin-left: auto;
+}
+.footerBlock2-menu {
+}
+.footerBlock2-items {
+    display: grid;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+    gap: 38px;   
+}
+.footerBlock2-item {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+}
+.footerBlock2-item1 {
+}
+.footerBlock2-item2 {
+}
+.footerBlock2-item3 {
+}
+.footerBlock2-itemNumber {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+}
+.footerBlock2Item-social {
+    display: flex;
+    align-items: end;
+    gap: 31px;
+}
+.footerBlock2-number {
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 26px;
+}
+.footerBlock2-adress {
+}
+.footerBlock2-email {
+}
+
+@media (width < 850px) {
+    .footer-blocks {
+        grid-template-columns: repeat(1,1fr);
+        justify-content: center;
+        text-align: center;
+        gap: 50px;
+    }
+    .footerBlock1-img {
+        display: grid;
+        justify-content: center;
+    }
+    .footerBlock1-img img {
+        margin: 0 auto;
+        padding-bottom: 31px;
+    }
+    .footer-block2 {
+        margin: 0;
+    }
+    .footerBlock2-items {
+        justify-content: center;
+    }
+    .footerBlock2-item1 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
+@media (width < 400px) {
+    .footer {
+        padding: 23px 0px 64px 0px ;
+    }
+    .footerBlock1-items {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;    
+    }
+    .footerBlock2-item {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 22px;       
+    }
+    .footerBlock2-number {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 20px;    
+    }
+    .footerBlock2Item-social {
+        gap: 22px;
+    }
+    .footerBlock2Item-social img {
+        width: 23px;
+        height: 20px;
+    }
+}

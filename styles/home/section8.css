@@ -74,6 +74,7 @@
 /* join block */
 .section8Form-join {
     padding-top: 59px;
+    padding-bottom: 55px;
     background-color: rgba(238, 238, 238, 1);
 }
 .section8FormJoin__container {
