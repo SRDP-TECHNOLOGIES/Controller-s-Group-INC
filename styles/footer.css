@@ -17,6 +17,9 @@
     align-items: start;
     gap: 15px;
 }
+.footerBlock1-img img {
+    cursor: pointer;
+}
 .footerBlock1-menu {
 }
 .footerBlock1-items {
@@ -27,6 +30,12 @@
     gap: 35px;
 }
 .footerBlock1-item {
+    display: flex;
+    cursor: pointer;
+    margin-right: auto;
+}
+.footerBlock1-item:hover {
+    text-decoration: underline;
 }
 .footer-block2 {
     margin-left: auto;
@@ -45,6 +54,9 @@
     align-items: center;
     gap: 17px;
 }
+.footerBlock2-item img {
+    cursor: pointer;
+}
 .footerBlock2-item1 {
 }
 .footerBlock2-item2 {
@@ -62,13 +74,21 @@
     gap: 31px;
 }
 .footerBlock2-number {
+    text-decoration: underline;
+    cursor: pointer;
     font-size: 21px;
     font-weight: 700;
     line-height: 26px;
 }
+.footerBlock2-number:hover {
+    text-decoration: none;
+}
 .footerBlock2-adress {
+    cursor: pointer;
 }
 .footerBlock2-email {
+    cursor: pointer;
+    text-decoration: underline;
 }
 
 @media (width < 850px) {
