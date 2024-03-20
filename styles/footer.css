@@ -3,14 +3,12 @@
     background-color: rgba(48, 67, 86, 1);
     color: #fff;
 }
-.footer__container {
-}
+
 .footer-blocks {
     display: grid;
     grid-template-columns: repeat(2,1fr);
 }
-.footer-block1 {
-}
+
 .footerBlock1-img {
     display: flex;
     justify-content: space-between;
@@ -20,8 +18,7 @@
 .footerBlock1-img img {
     cursor: pointer;
 }
-.footerBlock1-menu {
-}
+
 .footerBlock1-items {
     display: grid;
     font-size: 18px;
@@ -40,8 +37,7 @@
 .footer-block2 {
     margin-left: auto;
 }
-.footerBlock2-menu {
-}
+
 .footerBlock2-items {
     display: grid;
     font-size: 18px;
@@ -57,12 +53,7 @@
 .footerBlock2-item img {
     cursor: pointer;
 }
-.footerBlock2-item1 {
-}
-.footerBlock2-item2 {
-}
-.footerBlock2-item3 {
-}
+
 .footerBlock2-itemNumber {
     display: flex;
     align-items: center;
