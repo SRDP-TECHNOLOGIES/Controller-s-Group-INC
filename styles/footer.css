@@ -15,6 +15,7 @@
     align-items: start;
     gap: 15px;
 }
+
 .footerBlock1-img img {
     cursor: pointer;
 }
@@ -26,14 +27,17 @@
     line-height: 22px;
     gap: 35px;
 }
+
 .footerBlock1-item {
     display: flex;
     cursor: pointer;
     margin-right: auto;
 }
+
 .footerBlock1-item:hover {
     text-decoration: underline;
 }
+
 .footer-block2 {
     margin-left: auto;
 }
@@ -45,11 +49,13 @@
     line-height: 29px;
     gap: 38px;   
 }
+
 .footerBlock2-item {
     display: flex;
     align-items: center;
     gap: 17px;
 }
+
 .footerBlock2-item img {
     cursor: pointer;
 }
@@ -59,11 +65,13 @@
     align-items: center;
     gap: 17px;
 }
+
 .footerBlock2Item-social {
     display: flex;
     align-items: end;
     gap: 31px;
 }
+
 .footerBlock2-number {
     text-decoration: underline;
     cursor: pointer;
@@ -74,9 +82,11 @@
 .footerBlock2-number:hover {
     text-decoration: none;
 }
+
 .footerBlock2-adress {
     cursor: pointer;
 }
+
 .footerBlock2-email {
     cursor: pointer;
     text-decoration: underline;
